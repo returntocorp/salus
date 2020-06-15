@@ -44,7 +44,6 @@ module Salus::Scanners
 
           command = [
             "semgrep",
-            "--strict",
             "--json",
             "--pattern",
             match['pattern'],
